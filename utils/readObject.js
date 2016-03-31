@@ -7,7 +7,7 @@ let readObject = function(requestObj){
      var coveredCallRequest=  { A: {
                                        '1': '1/4/16 - nextFullExpiration("1/4/16")',
                                        '2': 'stockArray(["NFLX","AAPL", "FB", "LNKD", "FXE"])',
-                                       '3': 'enterAtOpen("1/4/26")'
+                                       '3': 'enterAtOpen("1/4/16")'
                                    },
                                 B: {   '1': 'closeAtClose(nextFullExpiration("1/4/16"))'},
                                 C: {   '1': 'leg1(coveredCall($stock, "3OTM", 1))' },
@@ -21,7 +21,7 @@ let readObject = function(requestObj){
      var justStock= { A: {
                                        '1': '1/4/16 - nextFullExpiration("1/4/16")',
                                        '2': 'stockArray(["NFLX","AAPL", "FB", "LNKD", "FXE"])',
-                                       '3': 'enterAtOpen("1/4/26")'
+                                       '3': 'enterAtOpen("1/4/16")'
                                    },
                                 B: {   '1': 'closeAtClose(nextFullExpiration("1/4/16"))'},
                                 C: {   '1': 'leg1(stock($stock, 100))' },
